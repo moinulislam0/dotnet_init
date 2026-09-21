@@ -23,9 +23,16 @@ class Test {
     // Console.WriteLine(Convert.ToDouble(salary2));
     // Console.WriteLine(Convert.ToInt32(salary));
     String input = "15";
+    int age ;
     int result;
-    bool isSuccess = double.TryParse(input ,out result);
+    bool isSuccess = int.TryParse(input ,out result);
     Console.WriteLine(result);
     Console.WriteLine(isSuccess);
+    Console.WriteLine("Enter your name : ");
+   String? name = Console.ReadLine();
+    Console.WriteLine("Enter your age :");
+     age =Convert.ToInt32( Console.ReadLine());
+    Console.WriteLine("Name "+name);
+    Console.WriteLine("Age "+age);
     }
 }
