@@ -33,6 +33,6 @@ class Test {
     Console.WriteLine("Enter your age :");
      age =Convert.ToInt32( Console.ReadLine());
     Console.WriteLine("Name "+name);
-    Console.WriteLine("Age "+age);
+    Console.WriteLine("Age "+age + " years old");
     }
 }
